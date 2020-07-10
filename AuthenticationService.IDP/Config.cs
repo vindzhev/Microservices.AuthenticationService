@@ -34,12 +34,12 @@ namespace AuthenticationService.IDP
             { 
                 new Client
                 {
+                    
                     ClientName = "Microservices.WebUI",
                     ClientId = "7ceea8f0-9ef6-4a41-b0d7-d4ebe99430bb",
                     AllowedGrantTypes = GrantTypes.Implicit,
                     RequireConsent = false,
                     AllowAccessTokensViaBrowser = true,
-                    AccessTokenLifetime = 180,
                     PostLogoutRedirectUris = new List<string>() { "http://localhost:4200" },
                     RedirectUris = new List<string>() { "http://localhost:4200/signin-oidc", "http://localhost:4200/redirect-silentrenew" },
                     AllowedScopes = new List<string>() { IdentityServerConstants.StandardScopes.OpenId, IdentityServerConstants.StandardScopes.Profile, "roles", "portal-gateway", "product-service-api" },
