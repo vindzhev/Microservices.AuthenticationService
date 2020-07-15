@@ -34,7 +34,7 @@ namespace AuthenticationService.IDP
                 options.Events.RaiseFailureEvents = true;
                 options.Events.RaiseInformationEvents = true;
                 options.Events.RaiseSuccessEvents = true;
-                options.IssuerUri = "https://localhost:5000";
+                options.IssuerUri = "https://localhost:9998";
             })
                 .AddDeveloperSigningCredential()
                 .AddTestUsers(TestUsers.Users)
