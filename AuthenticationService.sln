@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationService.IDP", "AuthenticationService.IDP\AuthenticationService.IDP.csproj", "{753C2190-2576-4133-B7CF-FDF099C98A85}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationService.Application", "AuthenticationService.Application\AuthenticationService.Application.csproj", "{5FEAEBF2-5F1F-4F60-A5EF-D6C01A864938}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationService.Inftastructure", "AuthenticationService.Inftastructure\AuthenticationService.Inftastructure.csproj", "{2B6A90C7-B3C1-4743-94F9-8249FA4FD6FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{753C2190-2576-4133-B7CF-FDF099C98A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{753C2190-2576-4133-B7CF-FDF099C98A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{753C2190-2576-4133-B7CF-FDF099C98A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FEAEBF2-5F1F-4F60-A5EF-D6C01A864938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEAEBF2-5F1F-4F60-A5EF-D6C01A864938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEAEBF2-5F1F-4F60-A5EF-D6C01A864938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEAEBF2-5F1F-4F60-A5EF-D6C01A864938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B6A90C7-B3C1-4743-94F9-8249FA4FD6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6A90C7-B3C1-4743-94F9-8249FA4FD6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6A90C7-B3C1-4743-94F9-8249FA4FD6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6A90C7-B3C1-4743-94F9-8249FA4FD6FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
