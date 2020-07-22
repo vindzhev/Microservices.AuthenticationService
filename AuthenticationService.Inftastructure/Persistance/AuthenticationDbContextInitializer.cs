@@ -49,7 +49,11 @@
                     AllowAccessTokensViaBrowser = true,
                     AlwaysIncludeUserClaimsInIdToken = true,
                     PostLogoutRedirectUris = new List<string>() { "http://localhost:4200" },
-                    RedirectUris = new List<string>() { "http://localhost:4200/signin-oidc", "http://localhost:4200/redirect-silentrenew" },
+                    RedirectUris = new List<string>() 
+                    { 
+                        "http://localhost:4200/authentication/signin-oidc", 
+                        "http://localhost:4200/authentication/redirect-silent" 
+                    },
                     AllowedScopes = new List<string>() 
                     { 
                         IdentityServerConstants.StandardScopes.OpenId, 

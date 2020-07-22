@@ -4,7 +4,6 @@
 
 using AuthenticationService.Inftastructure;
 using AuthenticationService.Inftastructure.Persistance;
-using IdentityServerHost.Quickstart.UI;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
